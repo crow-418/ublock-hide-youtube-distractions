@@ -1,0 +1,16 @@
+! Title: Hide YouTube Distractions
+! Description: Hide YouTube Distractions for focus
+! Homepage: https://github.com/crow-418/ublock-hide-youtube-distractions
+! License: https://github.com/crow-418/ublock-hide-youtube-distractions/blob/main/LICENSE
+
+! Hide YouTube homepage recommendations
+www.youtube.com##[page-subtype="home"]
+
+! Hide "Up next" sidebar
+www.youtube.com##ytd-watch-next-secondary-results-renderer
+
+! Hide comments section
+www.youtube.com##ytd-comments
+
+! Hide endscreen video suggestions
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
